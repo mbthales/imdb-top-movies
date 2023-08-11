@@ -1,0 +1,33 @@
+name: 'ci'
+
+on:
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    lint:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: 'Install dependencies'
+              run: 'npm install'
+            - name: 'Lint'
+              run: 'npm run lint'
+    format:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: 'Install dependencies'
+              run: 'npm install'
+            - name: 'Format'
+              run: 'npm run format'
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: 'Build and push docker image'
+              run: 'docker build -t mbthales/imdb-top250-api . && docker push mbthales/imdb-top250-api'
