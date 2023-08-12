@@ -1,8 +1,8 @@
-# IMDB TOP 250 GRAPHQL API
+# IMDB Top 250 GraphQL API.
 
 ## Content Table
 
-- [IMDB TOP 250 GRAPHQL API](#imdb-top-250-graphql-api)
+- [IMDB Top 250 GraphQL API](#imdb-top-250-graphql-api)
 	- [Content Table](#content-table)
 	- [About ](#about-)
 	- [Getting Started ](#getting-started-)
@@ -13,8 +13,7 @@
 
 ## About <a name="about"></a>
 
-The IMDB Top 250 GraphQL API allows you to fetch for the best rated movies on the IMDB site. You can filter for newest movies, oldest movies and the reverse ranking order. Web Scrapping was used for collect the data from IMDB.
-
+The IMDB Top 250 GraphQL API allows you to fetch the best rated movies on the IMDB site. You can filter for newest movies, oldest movies and the reverse ranking order. Web scraping was used to collect the data from IMDB. For more details about the API documentation, you can visit this [link](https://imdb-top250-api.onrender.com/).
 ## Getting Started <a name="getting_started"></a>
 
 ### Installation <a name="installation"></a>
