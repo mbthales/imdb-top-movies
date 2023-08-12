@@ -1,4 +1,4 @@
-# IMDB Top 250 GraphQL API.
+# IMDB Top 250 GraphQL API
 
 ## Content Table
 
